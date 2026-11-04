@@ -1,0 +1,6 @@
+# Agent workspace, scorer, teacher (numpy forward pass) and harness.
+# Versions are the ones the published run used (Python 3.12).
+numpy==2.4.2
+pillow==12.1.1
+scipy==1.18.1
+opencv-python-headless==5.0.0.93

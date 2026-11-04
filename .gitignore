@@ -1,0 +1,25 @@
+# data (rebuilt by data/build_splits.py; never commit images)
+data/cache/
+workspace/data/
+hidden/
+*.JPEG
+*.tgz
+
+# run outputs and runtime state written by the harness
+out/
+.pilot_stash/
+workspace/teacher/.cache/
+workspace/.teacher_used
+workspace/.batch_config.json
+workspace/.batch_state.json
+workspace/.batch_state.lock
+workspace/.steps.jsonl
+workspace/.val_passes.json
+workspace/.val_passes.lock
+workspace/.subagents/
+
+# python / os
+__pycache__/
+*.pyc
+.venv/
+.DS_Store

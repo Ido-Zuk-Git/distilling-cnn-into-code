@@ -1,0 +1,9 @@
+# Only for retraining the teacher and the conventional baselines (not needed to run the experiment).
+# Versions used for the shipped teacher and baseline numbers (Python 3.14, CPU).
+torch==2.15.0
+numpy==2.5.4
+pillow==13.0.0
+scipy==1.18.1
+scikit-learn==1.9.1
+scikit-image==0.26.0
+joblib==1.6.0
