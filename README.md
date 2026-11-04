@@ -2,7 +2,7 @@
 
 A coding agent gets a small CNN trained on 505 Imagenette images (numpy weights and activations) and must hand-write a pure-program classifier, `classify.py`, with no statistical learning, no numbers copied from the network, no fitting to it and no image viewer. The program is scored once on 2,000 hidden images.
 
-Write-up: [Distilling a neural network into code](https://ido-zuk-git.github.io/2026/11/04/distilling-a-cnn-into-code.html).
+Write-up: [Distilling a neural network into code](https://idozuk.com/2026/11/04/distilling-a-cnn-into-code.html).
 
 Result of the published run (Codex `gpt-6.1-sol`, high effort, 25 versions, 44 minutes): **40.80%** on the hidden test, teacher **68.90%**. Full numbers in `results/run/hidden_test_v6_sol.json` and `baseline/results_505/summary.md`.
 
